@@ -121,7 +121,7 @@ The stock T500 gantry and bed are mounted in such a way that the gantry cannot d
 ### Wiring Wiring Wiring
 Thankfully for the most part we are SIMPLIFYING the wiring rather than making it more complicated. It should go without saying that your printer should be **fully powered off and unplugged** for the next few steps especially.
 
-#### U2C Wiring and Mounting
+#### LED Wiring
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/6f1cea17-c823-405f-b56b-fb6b61758521)
 
 
