@@ -1,18 +1,4 @@
-# T500xVORON
-![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/9e38871f-9e6d-4316-8307-1d23e218a175)
-A Comgrow T500 Rework to install an RC8 Voron Stealthburner, complete with ChaoticLabs CNC Tap for nozzle based probing and Auto-Z offset, and CANBUS single cable intergration. This should be considered a moderately advanced build; you will need experience or be willing to learn configuring Klipper, crimping/soldering wire, using heat-set inserts, and be comfortable dissasembling/reassembling the T500. If your printer blows up into a million pieces (or otherwise doesn't work like you want it to), you are responsible. I've been running this setup for the better part of a year without issue, and there are several other VoronT500's out there in the wild running nicely. I did my best to document my process and make the configurations foolproof, but I may have missed something somewhere. You may need to use your brain a bit to troubleshoot! Respective rights and thanks go to the VORON team of course, as well as BTT and CHAOTICLABS for their documentation.
 
-The guide below will cover the full T500 conversion; you may be able to deviate if you just want parts of it (for example; enabling sensorless homing on your stock T500) or you want to use different components (such as a different toolhead board, different CANBUS adapter, or not using CANBUS at all), but you're on your own if you do so.
-
-## Why would I want this?
-* VORON TAP is far more accurate than the stock inductive Z probe, and is not prone to thermal drift. 
-* TAP allows for automatic Z offset, every print, regardless of print surface. "Always perfect first layers"!
-* The modular design allows you to change out hotends easily, or use different hotend styles than the stock one. This also makes maintenance or failure recovery WAY easier.
-* The LED's on the hotend can show the current printer status, change as the printer heats up to visually show temperature, and illuminate the nozzle while printing. 
-* The VORON Stealthburner allows you to use more off-the-shelf, higher quality components that are easy to obtain and replace. It's difficult to get replacements for Comgrow proprietary parts (parts can take weeks to ship).
-* An additional ADXL sensor on the X axis simplifies input shaping.
-* Simplified wiring with CANBUS cuts the amount of wires running to the toolhead down to just one unified cable.
-* It just damn **looks** cooler.
 
 ## TABLE OF CONTENTS
 ### [THINGS TO BUY](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#things-to-buy)
@@ -29,8 +15,6 @@ The guide below will cover the full T500 conversion; you may be able to deviate 
 
 ## Things to Buy
 * [ChaoticLabs CNC TAP **V2**](https://chaoticlab.xyz/products/cnc-voron-tap). This is the nozzle probing system. It MUST be the V2
-* [BTT U2C V2.1 CANBUS USB adapter](https://www.amazon.com/BIGTREETECH-Adapter-Supports-Connection-Interface/dp/B0B1X47319). This is the USB to CANBUS adapter
-* [BTT SB 2209 RP2040](https://biqu.equipment/products/bigtreetech-ebb-sb2209-can-v1-0?variant=40377392431202). This is the toolhead control board. You should get the 2209 **RP2040** variant.
 * [Everything from Fasteners & Electronics section of the BOM of the latest VORON Stealthburner](https://vorondesign.com/voron_stealthburner). Do not cheap out on the BMG extruder kit!
 * [A Stealthburner compatible Hotend of your choosing](https://us.store.bambulab.com/products/complete-hotend-assembly-x1-series). I use the Bambu Labs hardened steel hotend assembly, but any stealthburner compatible hotend will work.
   * If you use a Bambu Labs hotend, [this](https://www.printables.com/model/322091-voron-stealthburner-printhead-for-bambu-x1cx1-hote) adapter for the StealthBurner works well!
@@ -45,14 +29,12 @@ The guide below will cover the full T500 conversion; you may be able to deviate 
 **THESE MUST ALL BE PRINTED FROM ABS OR ASA. THEY ARE DESIGNED FOR ABS. OTHER MATERIALS ARE NOT SUITABLE EITHER DUE TO THEIR TEMPERATURE RESISTANCE OR STRUCTURE CREEP OVER TIME; YOU HAVE BEEN WARNED**
 * [1x Complete Voron Stealthburner Assembly](https://github.com/VoronDesign/Voron-Stealthburner/tree/main)
   * Optionally [but highly reccomended!] use the inline filament runout sensor located [here](https://www.printables.com/model/292186-stealthburner-clockwork-2-filament-sensor/files). This replaces the main_body of the CW2 extruder.
-  * Ensure you use the Cable_Cover_for_PCB and the toolhead PCB spacer!
+  * Ensure you use the Cable_Cover_for_PCB and the toolhead T500 spacer!
   * You do not need to print the gantry mount or TAP mount; the extruder and toolhead cover screw directly into the CNC TAP
-* [1x Toolhead Adapter Plate](https://github.com/Trist0ne/T500xVORON/blob/main/STL/Toolhead%20Adapter%20Plate.stl)
+* [1x Toolhead Adapter Plate]
 * [2x Bed Spacers](https://github.com/Trist0ne/T500xVORON/blob/main/STL/Bed%20Spacer%20T500%20v3.stl). Ensure these print perfectly flat with no warping, or it will throw off your bed level!
 * [1x CW2 Cable Bridge](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/STL/CW2%20Cable%20Bridge.STL)
-* [1x CAN Cable Strain Relief](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/STL/Printed_Part_for_CAN_Cable_V1.2.stl)
-* [1x U2C Adapter Plate](https://www.printables.com/model/422274-bigtreetech-u2c-mount/files)
-  * You will also need some double sided mounting tape to secure this in the electronics bay
+
 
 Print Settings:
 * Layer height: 0.2mm
@@ -67,21 +49,13 @@ Print Settings:
 You can do the following sections in any order, they are just listed in the order I did them. **Some of the steps will be linked to other guides** for the non-T500 conversion specific parts as they cover them more in depth, and there's no need to reinvent the wheel.
 
 ### Prerequisites
-* Flash both KATAPULT and Klipper to the U2C CANBUS adapter AND the SB2209 Toolhead board
-  * To make your life easier, do this before assembling anything.
-  * An excellent resource for CANBUS flashing I reccomend following is located [here](https://github.com/Esoterical/voron_canbus). There are subfolders for the [U2C](https://github.com/Esoterical/voron_canbus/tree/main/can_adapter/BigTreeTech%20U2C%20v2.1) and the [SB2209 rp2040](https://github.com/Esoterical/voron_canbus/tree/main/toolhead_flashing/common_hardware/BigTreeTech%20SB2209%20(RP2040)).
-  * You may get stuck here for a bit; this can be a little tricky if you've never done it before, but its not overly difficult. Follow the guide linked above carefully, as the documentation that comes with the boards is a little out of date. Technically you can skip installing KATAPULT and just flash Klipper directly, but it will make updating klipper significantly more difficult later.
-  * Technically, flashing Klipper to the U2C is optional. You can probably comment out the "u2c.cfg" and go about your life; it just lets you update and manage it easier, and see it as a temperature sensor in Mainsail. [This](https://docs.meteyou.wtf/btt-u2c-v2.x/klipper-usb-to-can/) guide can help if you get stuck flashing Klipper to the U2C.
-  * Pro tip- flashing on the SB2209 rp2040 takes a SECOND. I reran the process many times becuase I thought surely it was failing, but it really does just take a moment to flash. 
 * Assemble the VORON Stealthburner
   * Follow the build guide located [here](https://github.com/VoronDesign/Voron-Stealthburner/tree/main/Manual). This is a large step, and your toolhead will only function as well as you assemble it, so take your time.
-  * Attach and wire the SB2209 to the Stealthburner, following the build guide [here](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2209%20CAN%20(RP2040)/Build%20Guide/EBB%20SB2209%20CAN%20V1.0（RP2040）BUILD%20GUIDE_1129.pdf); double check your wiring carefully for the CNC-TAP especially. The colors may not be standard on your TAP wiring, and putting them in the wrong order can fry your TAP sensor.
 
 ### Mounting the Toolhead
 1. Start by inserting {4x} M3 5x4mm heat set inserts into the adapter plate. Take care to ensure they are perfectly level with the surface of the plastic.
 ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/1799de0e-7ea4-4598-afaf-f19714c63125)
 (Ignore the very bottom two holes in the picture; they didn't make it into the final design)
-
 
 3. Unclip the stock toolhead umbilical and drag chain mount, and move them out of the way. Unmount the stock T500 toolhead and drag chain plate. There are 4 screws around the outside of the plastic casing (keep these!), several screws holding the drag chain plate to the rail. You should be left with a metal rectangular sliding rail.
 ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/e83a2e70-2edc-46f8-97bc-da69bf9ecbf4)
