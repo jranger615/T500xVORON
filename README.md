@@ -1,17 +1,5 @@
 <h2>This is a modificed Voron build using Trist0ne initial configurations but with less complexity. This uses the T500 stock breakout board and will mostly rely on Configuration Changes and Soldering wires/Changing ends for your stealthburner to fit.</h2>
 
-## TABLE OF CONTENTS
-### [THINGS TO BUY](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#things-to-buy)
-### [THINGS TO PRINT](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#things-to-print)
-### [THE BUILD](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#the-build)
-#### [> PREREQUISITES](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#prerequisites)
-#### [> MOUNTING THE TOOLHEAD](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#mounting-the-toolhead)
-#### [> RAISING THE BED](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#raising-the-bed)
-#### [> WIRING WIRING WIRING](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#wiring-wiring-wiring)
-#### [> SOFTWARE CONFIGURATION](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#software-configuration)
-#### [> SLICER CONFIGURATION](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#slicer-configuration)
-#### [> TROUBLESHOOTING NOTES](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#troubleshooting-notes)
-
 
 ## Things to Buy
 * [ChaoticLabs CNC TAP **V2**](https://chaoticlab.xyz/products/cnc-voron-tap). This is the nozzle probing system. It MUST be the V2
