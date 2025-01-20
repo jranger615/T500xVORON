@@ -2,6 +2,10 @@
 
 
 ## Things to Buy
+*If you cant Print ABS or Dont want to print your StealthBurner - https://www.etsy.com/listing/1220054510/voron-stealthburner-clockwork-2
+You will have to talk to the guy and ask him to print all the seperate parts (Board Spacer, PCB Specific PCB Door, Cable Chain stuff,)
+
+*Optionally you can also use craftcloud.com to have things like the Bed Spacers and T500 Adapter printed in ABS. My Prefered Vendor is 3D Pros 
 
 * BMG Hardened Extruder Parts:
 https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss=e&_v=1.0
