@@ -1,4 +1,4 @@
-
+<h2>This is a modificed Voron build using Trist0ne initial configurations but with less complexity. This uses the T500 stock breakout board and will mostly rely on Configuration Changes and Soldering wires/Changing ends for your stealthburner to fit.</h2>
 
 ## TABLE OF CONTENTS
 ### [THINGS TO BUY](https://github.com/Trist0ne/T500xVORON/blob/main/README.md#things-to-buy)
