@@ -42,6 +42,7 @@ https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&
 **THESE MUST ALL BE PRINTED FROM ABS OR ASA. THEY ARE DESIGNED FOR ABS. OTHER MATERIALS ARE NOT SUITABLE EITHER DUE TO THEIR TEMPERATURE RESISTANCE OR STRUCTURE CREEP OVER TIME; YOU HAVE BEEN WARNED**
 * [1x Complete Voron Stealthburner Assembly](https://github.com/VoronDesign/Voron-Stealthburner/tree/main)
   * Optionally [but highly reccomended!] use the inline filament runout sensor located [here](https://www.printables.com/model/292186-stealthburner-clockwork-2-filament-sensor/files). This replaces the main_body of the CW2 extruder.
+  *  Optionally Bambu Labs hotend, [this](https://www.printables.com/model/322091-voron-stealthburner-printhead-for-bambu-x1cx1-hote) adapter for the StealthBurner works well!
   * Ensure you use the Cable_Cover_for_PCB and the toolhead T500 spacer!
   * You do not need to print the gantry mount or TAP mount; the extruder and toolhead cover screw directly into the CNC TAP
 * [2x Bed Spacers](https://github.com/Trist0ne/T500xVORON/blob/main/STL/Bed%20Spacer%20T500%20v3.stl). Ensure these print perfectly flat with no warping, or it will throw off your bed level!
