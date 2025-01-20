@@ -3,28 +3,28 @@
 
 ## Things to Buy
 
-BMG Hardened Extruder Parts:
+* BMG Hardened Extruder Parts:
 https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss=e&_v=1.0
 
-Pancake Motor:
+* Pancake Motor:
 https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-1004ahg
 
-Bambu Labs Hotend:
+* Bambu Labs Hotend:
 https://us.store.bambulab.com/products/complete-hotend-assembly-x1-series?variant=40475104280712
 
-Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
+* Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
 https://a.co/d/hCeWtaP
 
-1 Pc RGBW Mini Button PCB LED: (Will need wire extensions to MCU)
+* 1 Pc RGBW Mini Button PCB LED: (Will need wire extensions to MCU)
 https://www.amazon.com/dp/B075L8Y8V1/?coliid=I1FMQTNQJ0O444&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_JF21D1ZD5WGFT2YJCZDS
 
-CHAOTICLAB Voron Tap V2.0:
+* CHAOTICLAB Voron Tap V2.0:
 https://www.amazon.com/dp/B0CJV1QK1N/?coliid=I20A3SCCWK9XCS&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
 
-3D Printing Soldering Iron
+* 3D Printing Soldering Iron
 https://www.amazon.com/dp/B0CN6LQXYD/?coliid=I1IMXZO5S24SAN&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
 
-Printing Brass Nuts:
+* Printing Brass Nuts:
 https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
 
   * If you use a Bambu Labs hotend, [this](https://www.printables.com/model/322091-voron-stealthburner-printhead-for-bambu-x1cx1-hote) adapter for the StealthBurner works well!
