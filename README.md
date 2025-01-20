@@ -2,16 +2,37 @@
 
 
 ## Things to Buy
-* [ChaoticLabs CNC TAP **V2**](https://chaoticlab.xyz/products/cnc-voron-tap). This is the nozzle probing system. It MUST be the V2
-* [Everything from Fasteners & Electronics section of the BOM of the latest VORON Stealthburner](https://vorondesign.com/voron_stealthburner). Do not cheap out on the BMG extruder kit!
-* [A Stealthburner compatible Hotend of your choosing](https://us.store.bambulab.com/products/complete-hotend-assembly-x1-series). I use the Bambu Labs hardened steel hotend assembly, but any stealthburner compatible hotend will work.
+
+BMG Hardened Extruder Parts:
+https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss=e&_v=1.0
+
+Pancake Motor:
+https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-1004ahg
+
+Bambu Labs Hotend:
+https://us.store.bambulab.com/products/complete-hotend-assembly-x1-series?variant=40475104280712
+
+Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
+https://a.co/d/hCeWtaP
+
+1 Pc RGBW Mini Button PCB LED: (Will need wire extensions to MCU)
+https://www.amazon.com/dp/B075L8Y8V1/?coliid=I1FMQTNQJ0O444&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_JF21D1ZD5WGFT2YJCZDS
+
+CHAOTICLAB Voron Tap V2.0:
+https://www.amazon.com/dp/B0CJV1QK1N/?coliid=I20A3SCCWK9XCS&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
+
+3D Printing Soldering Iron
+https://www.amazon.com/dp/B0CN6LQXYD/?coliid=I1IMXZO5S24SAN&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
+
+Printing Brass Nuts:
+https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
+
   * If you use a Bambu Labs hotend, [this](https://www.printables.com/model/322091-voron-stealthburner-printhead-for-bambu-x1cx1-hote) adapter for the StealthBurner works well!
-* A few extra parts you will need:
+  * A few extra parts you will need:
   * 4x M3 5x4mm heat set inserts (same ones that VORONs use)
   * 8x M4x40mmm Socket Heat Cap Screws (Or whatever style M4x40mm screws you would like, SHCS's are just the easiest to tighten during the build)
   * A small length of PTFE tubing for the Stealthburner hotend mount
-  * A small spool of 20 AWG wire
-  * A small length of double sided mounting tape
+
 
 ## Things to Print
 **THESE MUST ALL BE PRINTED FROM ABS OR ASA. THEY ARE DESIGNED FOR ABS. OTHER MATERIALS ARE NOT SUITABLE EITHER DUE TO THEIR TEMPERATURE RESISTANCE OR STRUCTURE CREEP OVER TIME; YOU HAVE BEEN WARNED**
