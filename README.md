@@ -122,57 +122,8 @@ The stock T500 gantry and bed are mounted in such a way that the gantry cannot d
 Thankfully for the most part we are SIMPLIFYING the wiring rather than making it more complicated. It should go without saying that your printer should be **fully powered off and unplugged** for the next few steps especially.
 
 #### U2C Wiring and Mounting
-1. Remove the electronics bay cover
-  * There are 6 screws, 4 in the front and two in the back
-  * You will have to slide the heatbed back and forth to reach them all
-
-2. Carefully unplug and remove the following items from the printer. You will need to cut zip ties and undo screws where appropriate:
-* The stock toolhead umbilical (you will need to cut open the Z axis wiring loom to remove this fully. Do NOT cut or remove the X axis stepper wires)
-  * Remove the umbilical from the X axis drag chain; we will still utilize the drag chain. Unscrew the mounts on the drag chain and move it as close to the Z axis rails as you can, then reattach it 
-* The X and Y axis endstops (you will need to cut open the Z axis wiring loom to remove this fully. Do NOT cut or remove the X axis stepper wires)
-* ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/3abb4e46-f0a4-4822-b5aa-caab066ac0e3)
-
-* Flick the switch highlighted below to "ON" to enable sensorless homing
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/6f1cea17-c823-405f-b56b-fb6b61758521)
 
-
-3. Using at least 20 AWG wire, connect the U2C to the T500 power supply
-* There are two open attachment points for power and ground on the stock power supply you can utilize. This is an example; please pay attention to which one is negative and which one is positive
-* ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/909fa600-5ebe-4062-ad0d-fbee3cfea6d4)
-
-* Connect the wires from the +/- power supply to the green VIN/GND points on the U2C
-* ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/df421d74-ece0-4e10-b0ab-56382d2021f4)
-* Do not get them backwards unless you want to fry your boards!!!
-
-4. Insert the jumper included with the U2C on the pins labled 120R, near the USB-C port
-
-5. Mount the U2C in the electronics bay using the printed mount and double sided tape to secure it
-* I chose to mount it here ![21556689-9E68-4C35-BBAF-199B8BBE90C0_1_201_a](https://github.com/Trist0ne/T500xVORON/assets/41755299/5607ba5f-a9a9-49f2-927e-d3ad6f1ad170)
-
-
-6. Run a USB-C to USB-A cable from the U2C an open USB port under the T500 screen, following the existing cable routing path from the stock mainboard. Zip tie up the excess; keep it neat!
-
-#### Toolhead CANBUS Cable
-
-1. Crimp the end of the long cable included with the SB2209 with the Molex Microfit 4 pin connector that came with the U2C. Take great care that you align CAN_L, CAN_H, GND, and VIN appropriatly (see pinout above; the black 4 pin connector next to the large white one), or you will pop your toolhead board.
-* You do not need to shorten the cable; there is room in the electronics back to tuck the slack away nicely.
-
-2. Using the screws on top of the Z axis, move the toolhead mount as far up the Z axis and as far to the right of the X axis as it will go.
-* This will determine how much cable length you need
-
-3. Thread the CANBUS cable from the toolhead port through the X axis drag chain, following the same path the stock umbilical cable did into the electronics bay. Use the same anchor points to attach the cable to the edge of the X axis and the bottom of the Z axis
-* LEAVE SOME ROOM FOR SLACK. While you want these cables managed nicely, you dont want them routed so tightly that they're damaging the things they're attached to, or the internal wiring. Dont attach it so tightly that the Z axis rips the cable out at max height!
-* Route the cable cleanly through the electronics bay to the U2C. Plug it in, then zip tie up the rest of the slack to one of the stock anchor points.
-* Zip tie the CANBUS cable to the X axis stepper wire to keep everything clean and organized
-* Finally, Zip tie the CANBUS cable to the edge of the drag chain. The plasic mount on the EBB cable will provide plenty of strain relief ![0A58DF86-1371-48C0-9A15-90A06EAC607F_1_201_a](https://github.com/Trist0ne/T500xVORON/assets/41755299/5f7182dd-c8aa-468e-adab-82e27f99e1b3)
-
-
-#### Wiring Checks
-Dont think, just double check them
-1. Power supply POSITIVE is wired to U2C VIN. Power supply GROUND is wired to U2C GND
-2. CAN_L, CAN_H, GND, and VIN on the CANBUS cable are aligned to the CAN_L, CAN_H, GND, and VIN pins on the U2C
-
-When you're 100% sure everything is lined up, plug your printer in and flip the power on. Check to make sure the stock mainboard, the U2C and the SB2209 all light up (and that nothing goes pop!). When you're satisfied with your work, reinstall the electronics bay cover and screw it back down. 
 
 ### Software Configuration
 
