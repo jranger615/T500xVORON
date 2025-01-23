@@ -75,7 +75,7 @@ You can do the following sections in any order, they are just listed in the orde
 
 
 4. Using the 4 casing screws from the stock toolhead, attach the Adapter Plate to the rectangular sliding rail. Check to ensure the rail still slides back and forth. 
-![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/f67d71d7-87a8-44ed-b62f-64451ad39fc4)
+![image](https://github.com/jranger615/T500xVORON/blob/main/photos/20250123_115523.jpg)
 
 
 5. Attach the ChaoticLabs CNC TAP to the Adapter Plate
