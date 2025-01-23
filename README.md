@@ -121,6 +121,15 @@ The stock T500 gantry and bed are mounted in such a way that the gantry cannot d
 
 ### Wiring Wiring Wiring
 Thankfully for the most part we are SIMPLIFYING the wiring rather than making it more complicated. It should go without saying that your printer should be **fully powered off and unplugged** for the next few steps especially.
+# Motor Wiring
+ * Cut your Stock Wiring Harness and the LDO Wiring Harness from each Motor
+ * Match LDO Wires to Stock Wire Harness Below
+   * Blue to Blue
+   * Yellow to RED
+   * Green to Green
+   * Red to Black
+
+
 
 #### LED Wiring
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/6f1cea17-c823-405f-b56b-fb6b61758521)
