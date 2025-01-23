@@ -67,7 +67,7 @@ You can do the following sections in any order, they are just listed in the orde
 
 ### Mounting the Toolhead
 1. Start by inserting {4x} M3 5x4mm heat set inserts into the adapter plate. Take care to ensure they are perfectly level with the surface of the plastic.
-![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/1799de0e-7ea4-4598-afaf-f19714c63125)
+![image](https://github.com/jranger615/T500xVORON/blob/main/photos/20250123_115149.jpg)
 (Ignore the very bottom two holes in the picture; they didn't make it into the final design)
 
 3. Unclip the stock toolhead umbilical and drag chain mount, and move them out of the way. Unmount the stock T500 toolhead and drag chain plate. There are 4 screws around the outside of the plastic casing (keep these!), several screws holding the drag chain plate to the rail. You should be left with a metal rectangular sliding rail.
