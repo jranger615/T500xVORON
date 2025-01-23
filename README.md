@@ -71,7 +71,7 @@ You can do the following sections in any order, they are just listed in the orde
 (Ignore the very bottom two holes in the picture; they didn't make it into the final design)
 
 3. Unclip the stock toolhead umbilical and drag chain mount, and move them out of the way. Unmount the stock T500 toolhead and drag chain plate. There are 4 screws around the outside of the plastic casing (keep these!), several screws holding the drag chain plate to the rail. You should be left with a metal rectangular sliding rail.
-![image](https://private-user-images.githubusercontent.com/41755299/293424021-e83a2e70-2edc-46f8-97bc-da69bf9ecbf4.jpeg)
+![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/293424021-e83a2e70-2edc-46f8-97bc-da69bf9ecbf4.jpeg)
 
 
 4. Using the 4 casing screws from the stock toolhead, attach the Adapter Plate to the rectangular sliding rail. Check to ensure the rail still slides back and forth. 
