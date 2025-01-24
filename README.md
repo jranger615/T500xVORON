@@ -125,10 +125,10 @@ Thankfully for the most part we are SIMPLIFYING the wiring rather than making it
 # Motor Wiring
  * Cut your Stock Wiring Harness and the LDO Wiring Harness from each Motor
  * Match LDO Wires to Stock Wire Harness Below
-   * Blue > Blue
-   * Yellow > RED
-   * Green > Green
-   * Red > Black
+   * A2 Blue > Blue 1B
+   * A1 Yellow > RED 1A
+   * B1 Green > Green 2B
+   * B2 Red > Black 2B
 # TAP Wiring
  * Cut your Sensor Wire off the TAP and Off the Thermal Sensor
  * Match TAP Wires to Stock Wiring
