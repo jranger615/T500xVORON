@@ -14,7 +14,7 @@ https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss
 https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-1004ahg
 
 * Bambu Labs Hotend:
-https://us.store.bambulab.com/products/complete-hotend-assembly-x1-series?variant=40475104280712
+https://www.printables.com/model/588316-stealthburner-bambu-lab-x1cx1-hotend-mount/files
 
 * Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
 https://a.co/d/hCeWtaP
@@ -31,7 +31,7 @@ https://www.amazon.com/dp/B0CN6LQXYD/?coliid=I1IMXZO5S24SAN&colid=3IIJXA0HSD0NW&
 * Printing Brass Nuts:
 https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
 
-  * If you use a Bambu Labs hotend, [this](https://www.printables.com/model/322091-voron-stealthburner-printhead-for-bambu-x1cx1-hote) adapter for the StealthBurner works well!
+  * If you use a Bambu Labs hotend, [this](https://www.printables.com/model/588316-stealthburner-bambu-lab-x1cx1-hotend-mount/files) adapter for the StealthBurner works well!
   * A few extra parts you will need:
   * 4x M3 5x4mm heat set inserts (same ones that VORONs use)
   * 8x M4x40mmm Socket Heat Cap Screws (Or whatever style M4x40mm screws you would like, SHCS's are just the easiest to tighten during the build)
