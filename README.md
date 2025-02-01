@@ -50,7 +50,7 @@ https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&
   * Ensure you use the Cable_Cover_for_PCB and the toolhead T500 spacer!
   * You do not need to print the gantry mount or TAP mount; the extruder and toolhead cover screw directly into the CNC TAP
 * [2x Bed Spacers](https://github.com/Trist0ne/T500xVORON/blob/main/STL/Bed%20Spacer%20T500%20v3.stl). Ensure these print perfectly flat with no warping, or it will throw off your bed level!
-* [1x CW2 Cable Bridge](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/STL/CW2%20Cable%20Bridge.STL)
+* Optional for Cable Management [3 Hole Cable Bridge]([https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/STL/CW2%20Cable%20Bridge.STL](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Clockwork2/chain_anchor_3hole_SW.stl))
 
 
 Print Settings:
