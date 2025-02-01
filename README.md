@@ -13,7 +13,7 @@ https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss
 * Pancake Motor:
 https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-1004ahg
 
-* Bambu Labs Hotend:
+* OPTIONAL Bambu Labs Hotend (Choose HotEnd of Your Choice to replace this) :
 https://www.printables.com/model/588316-stealthburner-bambu-lab-x1cx1-hotend-mount/files
 
 * Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
