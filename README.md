@@ -16,6 +16,10 @@ https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-10
 * OPTIONAL Bambu Labs Hotend (Choose HotEnd of Your Choice to replace this) :
 https://www.printables.com/model/588316-stealthburner-bambu-lab-x1cx1-hotend-mount/files
 
+* OPTIONAL If Using the Recommended Filament Sensor CW2 you need:
+  * [5MM Ball](https://www.amazon.com/dp/B0B5P9H3S2/)
+  * [MicroSwitch](https://www.amazon.com/gp/product/B0B3DFJB6P)
+
 * Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
 https://a.co/d/hCeWtaP
 
