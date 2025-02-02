@@ -125,7 +125,13 @@ The stock T500 gantry and bed are mounted in such a way that the gantry cannot d
 5. Check to ensure the bed is able to slide **all** the way back and forth across its rails. If you did not use M4x40mm screws to attach the spacers, they may stick out from the rails and hit the Y Stepper drivers.
 
 ### Wiring Wiring Wiring
-Thankfully for the most part we are SIMPLIFYING the wiring rather than making it more complicated. It should go without saying that your printer should be **fully powered off and unplugged** for the next few steps especially.
+Printer should be **fully powered off and unplugged** for the next few steps.
+* I cut and soldered all connectors from the original hotend. I believe these are MINI JST Connectors but i am unsure so i just used what i had.
+
+# Stock Breakout Board Connections
+* ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/Breakout%20Board.jpg)
+
+
 # Motor Wiring
  * Cut your Stock Wiring Harness and the LDO Wiring Harness from each Motor
  * Match LDO Wires to Stock Wire Harness Below
@@ -133,13 +139,28 @@ Thankfully for the most part we are SIMPLIFYING the wiring rather than making it
    * A1 Yellow > RED 1A
    * B1 Green > Green 2B
    * B2 Red > Black 2B
+     
 # TAP Wiring
  * Cut your Sensor Wire off the TAP and Off the Thermal Sensor
  * Match TAP Wires to Stock Wiring
    * Brown Wire > Red Wire
    * Blue Wire > Black Wire
    * Black Wire > Yellow Wire
+  
+ # RunOut Sensor
+ * The Runout sensor will only use 2 connections
+   * Outside Connections(Button Side) To the Left Most Pin on the Breakout Board
+   * Middle Connections to Ground or Middle Pin on the Breakout Board
+ 
+ # FANS
+ * Red/Black wires will all match for 24v Fans
+ * Heatsink Fan is the middle Fan connector on the bottom 3
+ * Cooling Fan can attach to any of the other 3 connectors
 
+ # HotEnd
+  * These wires you cant really wire wrong as long as you plug the right connection in.
+  * The thermistor is usually the bare copper looking wire comming off the Hot End
+  * Heat Cartidge is usually a thicker set of wires with insulation
 
 #### LED Wiring
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/6f1cea17-c823-405f-b56b-fb6b61758521)
