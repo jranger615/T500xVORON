@@ -26,6 +26,8 @@ https://a.co/d/hCeWtaP
 * 1 Pc RGBW Mini Button PCB LED: (Will need wire extensions to MCU)
 https://www.amazon.com/dp/B075L8Y8V1/?coliid=I1FMQTNQJ0O444&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_JF21D1ZD5WGFT2YJCZDS
 
+* LED Connectors for MCU Conenctions https://www.amazon.com/gp/product/B07H1WDN3R/
+ 
 * CHAOTICLAB Voron Tap V2.0:
 https://www.amazon.com/dp/B0CJV1QK1N/?coliid=I20A3SCCWK9XCS&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_B5HRK3VTWEEB0CD1SH8E
 
