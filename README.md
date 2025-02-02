@@ -162,8 +162,19 @@ Printer should be **fully powered off and unplugged** for the next few steps.
   * The thermistor is usually the bare copper looking wire comming off the Hot End
   * Heat Cartidge is usually a thicker set of wires with insulation
 
-#### LED Wiring
-* ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/6f1cea17-c823-405f-b56b-fb6b61758521)
+# LED Wiring
+ * You will need to access the mother board and run a long set of 3 wires to the mainboard.
+ * Feed all the wires through the cable chain and amtch them to the length of the ribbon cable. I zipped tied them along it after exiting the cable chain,
+ * See the below diagram to connect the wires
+   * ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/pinouts.jpg)
+   * Connect the Middle DataWire to PB12 (Usually Blue),
+   * Connect the 2 outside connections to the 2 bottom pins 5v and Ground as it shows on the LEDS.
+
+# X Endstop Check
+**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
+ * The X End Stop is on the back of the X Axis. Remove the Screw and move it to the lower front bolt that holds the X Axis cover. (THis will requie a slightly logner m3 bolt)
+ * Using washers, Center the X End Stop with the new Carriage assembly.
+ * WIth the Machine Powered on, you should see the red light Turn off as the plastic extension passes into it.
 
 
 ### Software Configuration
@@ -176,17 +187,8 @@ Printer should be **fully powered off and unplugged** for the next few steps.
 3. Configure the annotated sections of **printer.cfg**, **toolboard.cfg**, and **u2c.cfg**. You will need to fill in the canbus_uuid sections to to tell your printer the CAN addresses of your U2C and SB2209, as well as configuring your sensorless homing (info below)
 4. Save and click 'firmware restart'; resolve any errors that Klipper may throw, if any (the error message will tell you what the configuration issue is).
 
-#### Z Endstop Check
-**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
-1. Once Klipper has successfully loaded and can interface with the U2C and SB2209, navigate to the machine page of the web UI and press 'sync endstops'
-2. Endstop Z should be 'OPEN'
-3. By hand, move the toolhead up to the top of it's travel to trigger the CNC TAP sensor. Hold it in place and click the 'sync enstops' button. Endstop Z should now be marked as 'CLOSED'
-4. Additionally, there should be a blue light on the rear of the TAP sensor that turns red when triggered. If this doesn't happen, you've either wired the sensor wrong or it is faulty.
 
-#### Sensorless Homing Configuration
-**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
-1. Follow the guide located [here](https://docs.vorondesign.com/community/howto/clee/sensorless_xy_homing.html) to calibrate the sensorless homing.
-* The default configurations are made to work with sensorless homing, and are largely preconfigured. You can start from "Finding the right StallGuard threshold". You do not need to add sensorless homing macros, I built them in. Ensure that your sensitivity numbers are high enough that you do not damage the printer, but low enough that the machine is consistently able to home itself.
+
 
 #### Z Offset Configuration
 Update your Z offset
