@@ -88,11 +88,16 @@ You can do the following sections in any order, they are just listed in the orde
 
 5. Attach the Stealthburner assembly to the CNC TAP. Check to make sure the whole assembly can slide up and down (the 'TAP' function)
    * The attachment process for the Stealthburner is the same as the one located in the [CNC TAP build guide](https://github.com/Chaoticlab/CNC-Tap-for-Voron/blob/master/Manual/CNC_Voron_Tap_V2_Build_Guide_20231013.pdf)
-   * Ensure you attach the cable bridge shown at the end of the build guide. We will not use the steel wire, but the bridge will provide strain relief and stability to the CANBUS cable port.
-![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/4ad1ae06-10eb-4e5d-9737-56c6c2a6584a)
-
  
 6. Check clearences, and appreciate how nice the Stealthburner looks mounted on the T500
+
+#### X Endstop Check
+**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
+ * The X End Stop is on the back of the X Axis. Remove the Screw and move it to the lower front bolt that holds the X Axis cover. (THis will requie a slightly logner m3 bolt)
+ * Using washers, Center the X End Stop with the new Carriage assembly.
+ * WIth the Machine Powered on, you should see the red light Turn off as the plastic extension passes into it.
+
+
 
 ### Raising the Bed
 The stock T500 gantry and bed are mounted in such a way that the gantry cannot drop low enough to touch the nozzle to the bed. Obviously, this is problematic. Because of the way the gantry is designed, there is no easy way to gracefully drop the toolhead low enough; thus, we have to go the other direction and raise the bed!
@@ -170,11 +175,6 @@ Printer should be **fully powered off and unplugged** for the next few steps.
    * Connect the Middle DataWire to PB12 (Usually Blue),
    * Connect the 2 outside connections to the 2 bottom pins 5v and Ground as it shows on the LEDS.
 
-# X Endstop Check
-**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
- * The X End Stop is on the back of the X Axis. Remove the Screw and move it to the lower front bolt that holds the X Axis cover. (THis will requie a slightly logner m3 bolt)
- * Using washers, Center the X End Stop with the new Carriage assembly.
- * WIth the Machine Powered on, you should see the red light Turn off as the plastic extension passes into it.
 
 
 ### Software Configuration
