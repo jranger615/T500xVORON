@@ -54,7 +54,7 @@ https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&
   * Ensure you use the [Custom Cable_Cover](https://github.com/jranger615/T500xVORON/blob/main/STL/cable_door_for_T500.stl)
   * [Toolhead T500 spacer](https://github.com/jranger615/T500xVORON/blob/main/STL/T500-Board-Adapter.stl.stl)(Requires 1 heat insert)
    * You do not need to print the gantry mount or TAP mount; the extruder and toolhead cover screw directly into the CNC TAP
-* [TAP Adapter](https://github.com/jranger615/T500xVORON/blob/main/STL/T500%20TAP%20Adapter.stl)
+* [T500 TAP Adapter](https://github.com/jranger615/T500xVORON/blob/main/STL/T500%20TAP%20Adapter.stl)
 * [2x Bed Spacers](https://github.com/jranger615/T500xVORON/blob/main/STL/Bed%20Spacer%20T500%20v3.stl). Ensure these print perfectly flat with no warping, or it will throw off your bed level!
 * Optional for Cable Management/Ribbon Cable Retainer [3 Hole Cable Bridge](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Clockwork2/chain_anchor_3hole_SW.stl) & [Retainer](https://github.com/jranger615/T500xVORON/blob/main/STL/T500%20Ribbon%20Cable%20Retainer%20%26%20Cable%20Connector.stl) (Retainer requires 2 heat inserts to attach cable chain)
 
