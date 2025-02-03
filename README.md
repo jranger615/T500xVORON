@@ -1,5 +1,7 @@
 <h2>This is a modificed Voron build using Trist0ne initial configurations but with less complexity. This uses the T500 stock breakout board and will mostly rely on Configuration Changes and Soldering wires/Changing ends for your stealthburner to fit.</h2>
 
+![image](https://github.com/jranger615/T500xVORON/blob/main/photos/T500Voron.jpg)
+
 
 ## Things to Buy
 * If you cant Print ABS or Dont want to print your StealthBurner - [https://www.etsy.com](https://www.etsy.com/search?q=voron+stealthburner+clockwork+2&ref=auto-1&as_prefix=voron+s&dd_referrer=https%3A%2F%2Fwww.etsy.com%2F) and search for Voron StealthBurner. Make sure you get CW2 setup
