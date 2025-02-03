@@ -16,7 +16,7 @@ https://west3d.com/products/bmg-components-kit-by-trianglelab?_pos=3&_psq=bm&_ss
 https://west3d.com/products/ldo-nema14-36mm-pancake-stepper-motor-ldo-36sth20-1004ahg
 
 * OPTIONAL Bambu Labs Hotend (Choose HotEnd of Your Choice to replace this) :
-https://www.printables.com/model/588316-stealthburner-bambu-lab-x1cx1-hotend-mount/files
+https://us.store.bambulab.com/products/bambu-hotend-x1c?variant=40475104313480&currency=USD
 
 * OPTIONAL If Using the Recommended Filament Sensor CW2 you need:
   * [5MM Ball](https://www.amazon.com/dp/B0B5P9H3S2/)
