@@ -74,7 +74,9 @@ You can do the following sections in any order, they are just listed in the orde
 ### Prerequisites
 * Assemble the VORON Stealthburner
   * Follow the build guide located [here](https://github.com/VoronDesign/Voron-Stealthburner/tree/main/Manual). This is a large step, and your toolhead will only function as well as you assemble it, so take your time.
+  * this video is also helpful https://youtu.be/dOyYvnehLaI?si=HIRMF422sOZMZnhB
 
+    
 ### Mounting the Toolhead
 1. Start by inserting {4x} M3 5x4mm heat set inserts into the adapter plate. Take care to ensure they are perfectly level with the surface of the plastic.
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/20250123_115149.jpg)
