@@ -161,7 +161,7 @@ For Reference ONLY: Pull Up Indicator and Reverse Polarity indicator were needed
  * Match TAP Wires to Stock Wiring
    * Brown Wire > Red Wire
    * Blue Wire > Black Wire
-   * Black Wire > Yellow Wire{/i
+   * Black Wire > Yellow Wire
 
   
  # RunOut Sensor
