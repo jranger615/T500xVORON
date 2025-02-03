@@ -187,7 +187,7 @@ Printer should be **fully powered off and unplugged** for the next few steps.
 2. Access your printers web-ui. In the machine tab, delete ALL the follwing if present: filament.cfg, KAMP_Settings.cfg,macros.cfg, mainsail.cfg,moonraker.conf,printer.cfg,start.cfg,stealthburner_leds.cfg,temperature_led.cfg, and toolhead.cfg
 3. Download the Klipper Configurations folder from this Github ([here](https://github.com/jranger615/T500xVORON/tree/main/configs)), and upload them ALL to the printer's config section.
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/258b8037-95a2-4bea-b8ea-d8ef3a9e6b04)
-3. Configure the annotated sections of **printer.cfg**, **toolboard.cfg**, and **u2c.cfg**. You will need to fill in the canbus_uuid sections to to tell your printer the CAN addresses of your U2C and SB2209, as well as configuring your sensorless homing (info below)
+3. Configure the annotated sections of **printer.cfg**, **toolboard.cfg**, and. You will need to fill in the canbus_uuid sections to to tell your printer the CAN addresses of your U2C and SB2209, as well as configuring your sensorless homing (info below)
 4. Save and click 'firmware restart'; resolve any errors that Klipper may throw, if any (the error message will tell you what the configuration issue is).
 
 
@@ -204,7 +204,6 @@ Update your Z offset
 4. Follow the [Ellis3dp print tuning guide](https://ellis3dp.com/Print-Tuning-Guide/articles/extruder_calibration.html) to dial in your Stealthburner
 5. Configure Input Shaping on both X and Y
 * You can reference [this guide](https://www.klipper3d.org/Measuring_Resonances.html#bed-slinger-printers) for help
-* Your X axis now has a built in accelerometer. You will still need to plug in the included accelerometer and mount it on the Y axis, the same way you would do on the stock T500.
 * I use the SHAPER_CALIBRATE macro for automatic calibration. It will measure both X and Y sequentially and apply the best settings automatically. 
 
 6. Retune your Pressure Advance
@@ -216,7 +215,6 @@ Update your Z offset
 * PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature]
 * PRINT_END
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/38245c9d-8e7e-4014-8cb4-d94785227172)
-2. In the 'Quality' tab, enable Arc Fitting
 3. In the 'Others' tab, enable
 * Label Objects
 * Exclude Objects
