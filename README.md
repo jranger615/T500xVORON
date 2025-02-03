@@ -52,7 +52,7 @@ https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&
   * Ensure you use the Cable_Cover_for_PCB and the toolhead T500 spacer!
   * You do not need to print the gantry mount or TAP mount; the extruder and toolhead cover screw directly into the CNC TAP
 * [2x Bed Spacers](https://github.com/Trist0ne/T500xVORON/blob/main/STL/Bed%20Spacer%20T500%20v3.stl). Ensure these print perfectly flat with no warping, or it will throw off your bed level!
-* Optional for Cable Management/Ribbon Cable Retainer [3 Hole Cable Bridge](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Clockwork2/chain_anchor_3hole_SW.stl) & [Retainer](https://github.com/jranger615/T500xVORON/blob/main/STL/T500%20Ribbon%20Cable%20Retainer%20%26%20Cable%20Connector.stl)
+* Optional for Cable Management/Ribbon Cable Retainer [3 Hole Cable Bridge](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/STLs/Clockwork2/chain_anchor_3hole_SW.stl) & [Retainer](https://github.com/jranger615/T500xVORON/blob/main/STL/T500%20Ribbon%20Cable%20Retainer%20%26%20Cable%20Connector.stl) (Retainer requires 2 heat inserts to attach cable chain)
 
 
 Print Settings:
@@ -74,7 +74,7 @@ You can do the following sections in any order, they are just listed in the orde
 ### Mounting the Toolhead
 1. Start by inserting {4x} M3 5x4mm heat set inserts into the adapter plate. Take care to ensure they are perfectly level with the surface of the plastic.
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/20250123_115149.jpg)
-(Ignore the very bottom two holes in the picture; they didn't make it into the final design)
+
 
 2. Unclip the stock toolhead umbilical and drag chain mount, and move them out of the way. Unmount the stock T500 toolhead and drag chain plate. There are 4 screws around the outside of the plastic casing (keep these!), several screws holding the drag chain plate to the rail. You should be left with a metal rectangular sliding rail.
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/293424021-e83a2e70-2edc-46f8-97bc-da69bf9ecbf4.jpeg)
@@ -177,8 +177,11 @@ Printer should be **fully powered off and unplugged** for the next few steps.
    * ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/pinouts.jpg)
    * Connect the Middle DataWire to PB12 (Usually Blue),
    * Connect the 2 outside connections to the 2 bottom pins 5v and Ground as it shows on the LEDS.
-
-
+  
+# Ribbon Cable/Retainer
+  * Attach the ribbon Cable to the breakout board
+  * If you printed the retainer you can now install it to keep the ribbon cable from pulling free
+  * Attach Cable Chain to Retainer. 
 
 ### Software Configuration
 
