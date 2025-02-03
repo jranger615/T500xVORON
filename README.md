@@ -155,13 +155,17 @@ Printer should be **fully powered off and unplugged** for the next few steps.
    * B2 Red > Black 2B
      
 # TAP Wiring
+For Reference a Pull Up Indicator and Reverse Polarity were needed for the change to TAP ^!PE8
+
  * Cut your Sensor Wire off the TAP and Off the Thermal Sensor
  * Match TAP Wires to Stock Wiring
    * Brown Wire > Red Wire
    * Blue Wire > Black Wire
-   * Black Wire > Yellow Wire
+   * Black Wire > Yellow Wire{/i
+
   
  # RunOut Sensor
+ For Reference 
  * The Runout sensor will only use 2 connections
    * Outside Connections(Button Side) To the Left Most Pin on the Breakout Board
    * Middle Connections to Ground or Middle Pin on the Breakout Board
