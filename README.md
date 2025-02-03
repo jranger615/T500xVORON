@@ -94,7 +94,7 @@ You can do the following sections in any order, they are just listed in the orde
 6. Check clearences, and appreciate how nice the Stealthburner looks mounted on the T500
 
 #### X Endstop Move
-**DO THIS BEFORE ATTEMPTING TO HOME THE PRINTER**
+**IF YOU DONT DO THIS, YOUR X Will not have an endstop setup and will crash**
  * The X End Stop is on the back of the X Axis. Remove the Screw and move it to the lower front bolt that holds the X Axis cover. (THis will requie a slightly logner m3 bolt)
  * Using washers, Center the X End Stop with the new Carriage assembly.
  * WIth the Machine Powered on, you should see the red light Turn off as the plastic extension passes into it.
