@@ -3,7 +3,7 @@
 
 ## Things to Buy
 * If you cant Print ABS or Dont want to print your StealthBurner - [https://www.etsy.com](https://www.etsy.com/search?q=voron+stealthburner+clockwork+2&ref=auto-1&as_prefix=voron+s&dd_referrer=https%3A%2F%2Fwww.etsy.com%2F) and search for Voron StealthBurner. Make sure you get CW2 setup
-You will have to talk to the seller and ask him to print all the seperate parts (Board Spacer, PCB Specific PCB Door, Cable Chain stuff,)
+You will have to talk to the seller and ask him to print all the seperate parts (Board Spacer, Cable Door in STLS, Cable Chain stuff,)
 
 * Optionally you can also use craftcloud.com to have things like the Bed Spacers and T500 Adapter printed in ABS. My Prefered Vendor is 3D Pros 
 
