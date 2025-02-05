@@ -138,11 +138,12 @@ The stock T500 gantry and bed are mounted in such a way that the gantry cannot d
 
 5. Check to ensure the bed is able to slide **all** the way back and forth across its rails. If you did not use M4x40mm screws to attach the spacers, they may stick out from the rails and hit the Y Stepper drivers.
 
-### PCB Mounting
-*Mount your PCB Spacer using a m3x8 to the inner most heat insert. You may want to use a m3 bolt at the top to hold it in palce before you tighten it down.
-*Use a small m3 bolt to mount the board to the spacer. Make sure its not too long or it may hit the gear
-*Use a m3x10 (May be 12) to mount the top location of the board
+### Mounting PCB
+* Mount your PCB Spacer using a m3x8 to the inner most heat insert. You may want to use a m3 bolt at the top to hold it in palce before you tighten it down.
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/PCB_Spacer.jpg)
+* Use a small m3 bolt to mount the board to the spacer. Make sure its not too long or it may hit the gear
+* Use a m3x10 (May be 12) to mount the top location of the board
+![image](https://github.com/jranger615/T500xVORON/blob/main/photos/Board-Mount.jpg)
 
 
 
