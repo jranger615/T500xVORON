@@ -91,7 +91,7 @@ You can do the following sections in any order, they are just listed in the orde
 
 
 4. Attach the ChaoticLabs CNC TAP to the Adapter Plate
-   * The attachment process is the same as the one located in the [CNC TAP build guide](https://github.com/Chaoticlab/CNC-Tap-for-Voron/blob/master/Manual/CNC_Voron_Tap_V2_Build_Guide_20231013.pdf)
+   * The attachment process is the same as the one located in the [CNC TAP build guide](https://github.com/Chaoticlab/CNC-Tap-for-Voron/blob/master/Manual/CNC_Voron_Tap_Build_Guide.pdf)
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/20250123_115725.jpg)
 
 5. Attach the Stealthburner assembly to the CNC TAP. Check to make sure the whole assembly can slide up and down (the 'TAP' function)
