@@ -26,7 +26,7 @@ https://us.store.bambulab.com/products/bambu-hotend-x1c?variant=40475104313480&c
 https://a.co/d/hCeWtaP
 
 * 1 Pc RGBW Mini Button PCB LED: (Will need wire extensions to MCU)
-https://www.amazon.com/dp/B075L8Y8V1/?coliid=I1FMQTNQJ0O444&colid=3IIJXA0HSD0NW&psc=1&ref_=cm_sw_r_cp_ud_lstpd_JF21D1ZD5WGFT2YJCZDS
+https://www.amazon.com/gp/product/B0CDC4SJM8
 
 * LED Connectors for MCU Conenctions https://www.amazon.com/gp/product/B07H1WDN3R/
  
