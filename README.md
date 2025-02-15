@@ -169,9 +169,9 @@ For Reference ONLY: Pull Up Indicator and Reverse Polarity indicator were needed
 
  * Cut your Sensor Wire off the TAP and Off the Thermal Sensor
  * Match TAP Wires to Stock Wiring
-   * Brown Wire > Red Wire
-   * Blue Wire > Black Wire
-   * Black Wire > Yellow Wire
+   * Red Wire > Brown Wire
+   * Black Wire > Blue Wire
+   * Yellow Wire > Black Wire 
 
   
  # RunOut Sensor
