@@ -180,6 +180,7 @@ For Reference ONLY: Pull Up Indicator and Reverse Polarity indicator were needed
  * The Runout sensor will only use 2 connections
    * Outside Connections(Button Side) To the Left Most Pin on the Breakout Board
    * Middle Connections to Ground or Middle Pin on the Breakout Board
+ ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/filament%20sensor..jpg)
  
  # FANS
  * Red/Black wires will all match for 24v Fans
