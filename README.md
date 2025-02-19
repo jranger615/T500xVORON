@@ -22,8 +22,7 @@ https://us.store.bambulab.com/products/bambu-hotend-x1c?variant=40475104313480&c
   * [5MM Ball](https://www.amazon.com/dp/B0B5P9H3S2/)
   * [MicroSwitch](https://www.amazon.com/gp/product/B0B3DFJB6P)
  
-* OPTIONAL Wiring Pin Conenctors. These can be used instead of cutting your current hot end wires:
-  * https://www.amazon.com/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN  
+* OPTIONAL Wiring Pin Conenctors. These can be used instead of cutting your current hot end wires: https://www.amazon.com/1-25mm-Connectors-Pre-Crimped-Pixhawk-Silicone/dp/B07S18D3RN  
 
 * Hardware/FANS/Extruder/Motor Kit: (Use instead of Separate Bolts) (Based on Reviews i dont trust the LEDs or Extruder Parts)
 https://a.co/d/hCeWtaP
