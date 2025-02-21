@@ -50,7 +50,11 @@ https://www.amazon.com/dp/B09MCWTBCC/?coliid=I34NRO9I6WL8EN&colid=3IIJXA0HSD0NW&
 
 ## Things to Print
 **THESE MUST ALL BE PRINTED FROM ABS OR ASA. THEY ARE DESIGNED FOR ABS. OTHER MATERIALS ARE NOT SUITABLE EITHER DUE TO THEIR TEMPERATURE RESISTANCE OR STRUCTURE CREEP OVER TIME; YOU HAVE BEEN WARNED**
-**I have added a zip with a complete set of STLs to the main for a Bambu Labs Hotend, and the RunOut Sensor version of the main CW2.***
+</br>
+* FULL OPTIONAL BUILD ZIP(All below components including optional in 1 place) https://github.com/jranger615/T500xVORON/blob/main/FULL_BAMBU_RUNOUT-BUILD-STL.zip
+  
+  or
+  
 * [1x Complete Voron Stealthburner Assembly](https://github.com/VoronDesign/Voron-Stealthburner/tree/main)
   * Optionally [but highly reccomended!] use the inline filament runout sensor located [here](https://github.com/jranger615/T500xVORON/blob/main/OptionalSTLS/CW2_main_fil_sen_2023.stl). This replaces the main_body of the CW2 extruder.
   * Optionally Bambu Labs hotend, [this](https://github.com/jranger615/T500xVORON/tree/main/OptionalSTLS) adapter for the StealthBurner works well!
