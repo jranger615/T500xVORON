@@ -216,11 +216,12 @@ For Reference ONLY: Pull Up Indicator and Reverse Polarity indicator were needed
 
 #### Initial Startup
 1. SSH into your printer. The username is **mks**, and the password is **makerbase**. Install KAMP on your printer, located [here](https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging)
-2. Access your printers web-ui. In the machine tab, delete ALL the follwing if present: filament.cfg, KAMP_Settings.cfg,macros.cfg, mainsail.cfg,moonraker.conf,printer.cfg,start.cfg,stealthburner_leds.cfg,temperature_led.cfg, and toolhead.cfg
+2. Access your printers web-ui. In the machine tab, delete ALL the follwing if present: filament.cfg, KAMP_Settings.cfg,macros.cfg, mainsail.cfg,moonraker.conf,printer.cfg,start.cfg,stealthburner_leds.cfg,temperature_led.cfg,runout.cfg and toolhead.cfg
 3. Download the Klipper Configurations folder from this Github ([here](https://github.com/jranger615/T500xVORON/tree/main/configs)), and upload them ALL to the printer's config section.
 * ![image](https://github.com/Trist0ne/T500xVORON/assets/41755299/258b8037-95a2-4bea-b8ea-d8ef3a9e6b04)
-3. Configure the annotated sections of **toolboard.cfg**. Things like Nozzle Size, PID Tunning, Extruder Sensor Typer, and Rotation Distance need to be adjusted for your machine.
-4. Save and click 'firmware restart'; resolve any errors that Klipper may throw, if any (the error message will tell you what the configuration issue is).
+4. RUnout.cfg is commented out in printer.cfg by default. If you are using a runout sensor un-comment this at the top of printer.cfg 
+5. Configure the annotated sections of **toolboard.cfg**. Things like Nozzle Size, PID Tunning, Extruder Sensor Typer, and Rotation Distance need to be adjusted for your machine.
+6. Save and click 'firmware restart'; resolve any errors that Klipper may throw, if any (the error message will tell you what the configuration issue is).
 
 #### Z Offset Configuration
 Update your Z offset
