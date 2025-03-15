@@ -1,3 +1,8 @@
+### If inclined to send a tip for my hard work:
+* Paypal: Jeff.b.ranger@gmail.com
+* Venmo: @Jeff-Ranger-1
+
+
 <h2>This is a modificed Voron build using Trist0ne initial configurations but with less complexity. This uses the T500 stock breakout board and will mostly rely on Configuration Changes and Soldering wires/Changing ends for your stealthburner to fit.</h2>
 
 *** 3/5/25 - Update - Changed Printer.cfg, Filament.cfg, and added Runout.cfg. Runout.cfg is commented out in the includes in printer.cfg by default
@@ -5,9 +10,6 @@
 ![image](https://github.com/jranger615/T500xVORON/blob/main/photos/T500Voron.jpg)
 
 
-## If youre so inclined to send a tip for my hard work::
-Paypal: Jeff.b.ranger@gmail.com
-Venmo: @Jeff-Ranger-1
 
 
 ## Things to Buy
